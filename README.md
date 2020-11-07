@@ -1,6 +1,7 @@
 # Auto-Patcher-v.3
 Stops Services. Copies Files from SRC to DST. Starts Services
 
+I am in the process of teaching myself Python.
 This code has come a long way in the last couple of weeks.
 This is the final version of my first attempt at creating a Python Program.
 
