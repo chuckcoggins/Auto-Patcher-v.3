@@ -6,7 +6,7 @@ import time
 
 init()
 src_dir = os.getcwd()
-servicesList = ['2018Server', 'TTC_AppService', 'TTC_ClockHost', 'TTDBSyncServer', 'TTNotify']
+servicesList = ['<ServiceName>', '<ServiceName>', '<ServiceName>', '<ServiceName>', '<ServiceName>']
 
 
 def copyloop(appdir, target):
@@ -46,15 +46,15 @@ copyloop(appdir=src_dir + '\\TT2018\\', target="C:\\test\\")
 colourText("\n ....Supervisor Client Patched", "BLUE")
 
 colourText("\n \t ....Patching DBSyncServer to 2018.40....", "BLUE")
-copyloop(appdir=src_dir + '\\DBSyncServer\\', target="C:\\TimeTrakConnect\\DBSyncServer\\")
+copyloop(appdir=src_dir + '\\DBSyncServer\\', target="C:\\Testing\\DBSyncServer\\")
 colourText("\n ....DBSyncServer Patched", "BLUE")
 
 colourText("\n \t ....Patching DBSyncServerAdmin to 2018.40....", "BLUE")
-copyloop(appdir=src_dir + '\\DBSyncAdmin\\', target="C:\\TimeTrakConnect\\DBSyncServerAdmin\\")
+copyloop(appdir=src_dir + '\\DBSyncAdmin\\', target="C:\\Testing\\DBSyncServerAdmin\\")
 colourText("\n ....DBSyncServerAdmin Patched", "BLUE")
 
 colourText("\n \t ....Patching AppService to 2018.40....", "BLUE")
-copyloop(appdir=src_dir + '\\AppService\\', target="C:\\TimeTrakConnect\\AppService\\")
+copyloop(appdir=src_dir + '\\AppService\\', target="C:\\Testing\\AppService\\")
 colourText("\n ....AppService Patched", "BLUE")
 
 colourText("\n \t ....Patching the Web Portal....", "BLUE")
